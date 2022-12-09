@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Protocol>
+    <!--Protocol files are intended for programmatic access.  File format may change without notice.-->
+    <Version>3.5</Version>
+    <VolumeUnit>nL</VolumeUnit>
+    <MolarityConcentrationUnit>µM</MolarityConcentrationUnit>
+    <MassConcentrationUnit>ng_mL</MassConcentrationUnit>
+    <Fluids>
+      <Fluid ID="2">
+        <Name>Cell Buffer</Name>
+        <ByVol>True</ByVol>
+        <Concentration>10000</Concentration>
+        <ConcentrationUnit>mM</ConcentrationUnit>
+        <MaxVolume>1000</MaxVolume>
+        <MaxVolumeUnit>nL</MaxVolumeUnit>
+        <ClassID>1</ClassID>
+        <Color>2</Color>
+      </Fluid>
+      <Fluid ID="0">
+        <Name>Lysis Mix</Name>
+        <ByVol>True</ByVol>
+        <Concentration>10000</Concentration>
+        <ConcentrationUnit>mM</ConcentrationUnit>
+        <MaxVolume>1000</MaxVolume>
+        <MaxVolumeUnit>nL</MaxVolumeUnit>
+        <ClassID>1</ClassID>
+        <Color>0</Color>
+      </Fluid>
+      <Fluid ID="4">
+        <Name>DNA</Name>
+        <ByVol>True</ByVol>
+        <Concentration>10000</Concentration>
+        <ConcentrationUnit>mM</ConcentrationUnit>
+        <MaxVolume>1000</MaxVolume>
+        <MaxVolumeUnit>nL</MaxVolumeUnit>
+        <ClassID>1</ClassID>
+        <Color>4</Color>
+      </Fluid>
+    </Fluids>
+    <ShakePerFluid>False</ShakePerFluid>
+    <ShakePlateDuration>5</ShakePlateDuration>
+    <ShakePerWell>False</ShakePerWell>
+    <ShakeThresholdVolume>100</ShakeThresholdVolume>
+    <BackfillOrder>Mixed</BackfillOrder>
+    <BackfillNoDispense>False</BackfillNoDispense>
+    <Plates>
+      <Plate>
+        <PlateType>Default384</PlateType>
+        <Rows>16</Rows>
+        <Cols>24</Cols>
+        <Name />
+        <AssayVolume>50000</AssayVolume>
+        <DMSOLimit>0.01</DMSOLimit>
+        <DontShake>False</DontShake>
+        <Wells>
+          <Well Row="0" Col="0">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="0" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="0" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="0" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="0" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="0" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="0" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="1" Col="0">
+            <Fluid ID="4">60</Fluid>
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="1" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="1" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="1" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="1" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="1" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="1" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="2" Col="0">
+            <Fluid ID="4">6</Fluid>
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="2" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="2" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="2" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="2" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="2" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="2" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="3" Col="0">
+            <Fluid ID="4">1.8</Fluid>
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="3" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="3" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="3" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="3" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="3" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="3" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="4" Col="0">
+            <Fluid ID="4">1.2</Fluid>
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="4" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="4" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="4" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="4" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="4" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="4" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="5" Col="0">
+            <Fluid ID="4">0.6</Fluid>
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="5" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="5" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="5" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="5" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="5" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="5" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="6" Col="0">
+            <Fluid ID="4">0.1</Fluid>
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="6" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="6" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="6" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="6" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="6" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="6" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="7" Col="0">
+            <Fluid ID="4">0.013</Fluid>
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="7" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="7" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="7" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="7" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="7" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="7" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="8" Col="0">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="8" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="8" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="8" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="8" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="8" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="8" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="9" Col="0">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="4">60</Fluid>
+          </Well>
+          <Well Row="9" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="9" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="9" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="9" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="9" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="9" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="10" Col="0">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="4">6</Fluid>
+          </Well>
+          <Well Row="10" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="10" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="10" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="10" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="10" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="10" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="11" Col="0">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="4">1.8</Fluid>
+          </Well>
+          <Well Row="11" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="11" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="11" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="11" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="11" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="11" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="12" Col="0">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="4">1.2</Fluid>
+          </Well>
+          <Well Row="12" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="12" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="12" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="12" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="12" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="12" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="13" Col="0">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="4">0.6</Fluid>
+          </Well>
+          <Well Row="13" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="13" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="13" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="13" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="13" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="13" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="14" Col="0">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="4">0.1</Fluid>
+          </Well>
+          <Well Row="14" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="14" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="14" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="14" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="14" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="14" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+          <Well Row="15" Col="0">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="4">0.013</Fluid>
+          </Well>
+          <Well Row="15" Col="2">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="15" Col="3">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="15" Col="4">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="15" Col="5">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="15" Col="6">
+            <Fluid ID="0">1000</Fluid>
+            <Fluid ID="2">1000</Fluid>
+          </Well>
+          <Well Row="15" Col="7">
+            <Fluid ID="2">1000</Fluid>
+            <Fluid ID="0">1000</Fluid>
+          </Well>
+        </Wells>
+        <Randomize />
+      </Plate>
+    </Plates>
+    <Backfills />
+    <Revisions>
+      <Revision Time="2022-10-11T16:31:59.302-04:00" UserID="AzureAD\ProductionDevices3" />
+      <Revision Time="2022-10-21T16:45:23.799-04:00" UserID="AzureAD\JeffBlackinton" />
+    </Revisions>
+  </Protocol>
+</Root>
